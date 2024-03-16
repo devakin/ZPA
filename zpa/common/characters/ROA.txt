@@ -1,0 +1,13 @@
+characters = {
+	ROA_dementsiya = {
+		name = "dementsiya"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_dementsiya
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+}

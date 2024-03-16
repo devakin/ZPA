@@ -1,0 +1,22 @@
+
+state={
+	id=772
+	name="STATE_772" # Middle Congo (Brazzaville)
+	manpower = 1
+	
+	state_category = pastoral
+	history={
+		owner = LUX
+		add_core_of = LUX
+		victory_points = {
+			8193 2
+		}
+
+	}
+
+	provinces={
+		2192 3109 6008 8193 12975 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,330 @@
+characters = {
+	AGR_Agress0r = {
+		name = "Agress0r"
+		advisor={
+			slot = army_chief
+			idea_token = AGR_agress0r
+			ledger  = army
+			traits  = {
+				army_chief_defensive_3
+			}
+		}
+		portraits = {
+			civilian = {
+				large = GFX_portrait_agress0r
+			}
+			army = {
+				large = GFX_portrait_agress0r
+				small =  GFX_idea_agress0r
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { Dictator }
+		}
+		field_marshal = {
+			skill = 6
+			attack_skill = 8
+			defense_skill = 4
+			planning_skill = 8
+			logistics_skill = 6
+		}
+		
+	}
+	AGR_bukashka = {
+		name = "bukashka"
+		advisor={
+			slot = army_chief
+			idea_token = AGR_bukashka
+			ledger  = army
+			traits  = {
+				army_chief_offensive_3
+			}
+		}
+		portraits = {
+			civilian = {
+				large = GFX_portrait_bukashka
+			}
+			army = {
+				large = GFX_portrait_bukashka
+				small =  GFX_idea_bukashka
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { Dictator }
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	
+	AGR_Zemik={
+		name = "Zemik"
+		advisor={
+			slot = theorist
+			idea_token = AGR_Zemik
+			ledger  = army
+			traits  = {
+				military_theorist 
+				knowledge_keeper
+			}
+		}
+		portraits={
+			army={
+				small="GFX_idea_Zemik"
+			}
+		}
+	}
+	
+	AGR_CatNeo={
+		name = "CatNeo"
+		advisor={
+			slot = high_command
+			idea_token = AGR_CatNeo
+			ledger  = army
+			traits  = {
+				army_logistics_3
+			}
+		}
+		portraits={
+			army={
+				small="GFX_idea_CatNeo"
+			}
+		}
+	}
+	AGR_MrStorm={
+		name = "MrStorm"
+		advisor={
+			slot = high_command
+			idea_token = AGR_MrStorm
+			ledger  = army
+			traits  = {
+				army_infantry_1
+				knowledge_keeper
+			}
+		}
+		portraits={
+			army={
+				small="GFX_idea_MrStorm"
+			}
+		}
+	}
+	AGR_CryF1sh={
+		name = "CryF1sh"
+		advisor={
+			slot = high_command
+			idea_token = AGR_CryF1sh
+			ledger  = army
+			traits  = {
+				army_regrouping_2
+			}
+		}
+		portraits={
+			army={
+				small="GFX_idea_CryF1sh"
+			}
+		}
+	}
+	
+	AGR_dragon={
+		name = "dragon"
+		advisor={
+			slot = navy_chief
+			idea_token = AGR_dragon
+			ledger  = navy
+			traits  = {
+				navy_chief_maneuver_3
+				void
+			}
+		}
+		portraits={
+			army={
+				large = "GFX_portrait_dragon"
+				small="GFX_idea_dragon"
+			}
+		}
+		corps_commander = {
+            traits = { politically_connected media_personality armor_officer }
+            skill = 2
+            attack_skill = 3
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+        }
+	}
+	AGR_Archmage={
+		name = "Archmage"
+		advisor={
+			slot = air_chief
+			idea_token = AGR_Archmage
+			ledger  = air
+			traits  = {
+				air_chief_safety_2
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = AGR_Archmage
+			ledger  = air
+			traits  = {
+				air_air_combat_training_2
+			}
+		}
+		portraits={
+			army={
+				small="GFX_idea_Archmage"
+			}
+		}
+	}
+	
+	AGR_agent={
+		name = "agent"
+		advisor={
+			slot = political_advisor
+			idea_token = AGR_agent
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits  = {
+				head_of_intelligence
+				knowledge_keeper
+			}
+		}
+		portraits={
+			civilian = {
+				small="GFX_idea_agent"
+			}
+			army={
+				large = "GFX_portrait_agent"
+				small="GFX_idea_agent"
+			}
+		}
+		corps_commander = {
+            traits = { trickster }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 2
+        }
+	}
+	
+	AGR_zhykich={
+		name = "zhykich"
+		advisor={
+			slot = political_advisor
+			idea_token = AGR_zhykich
+			traits  = {
+				finance_magnat
+			}
+		}
+		portraits={
+			civilian = {
+				small="GFX_idea_zhykich"
+			}
+			army={
+				large = "GFX_portrait_zhykich"
+				small="GFX_idea_zhykich"
+			}
+		}
+		corps_commander = {
+            traits = { desert_fox }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 2
+        }
+	}
+	AGR_servant={
+		name = "servant"
+		advisor={
+			slot = political_advisor
+			idea_token = AGR_servant
+			traits  = {
+				war_industrialist
+			}
+		}
+		portraits={
+			civilian = {
+				small="GFX_idea_servant"
+			}
+		}
+	}
+	AGR_kommisar={
+		name = "kommisar"
+		advisor={
+			slot = political_advisor
+			idea_token = AGR_kommisar
+			traits  = {
+				silent_workhorse
+			}
+		}
+		portraits={
+			civilian = {
+				small="GFX_idea_kommisar"
+			}
+			army={
+				large = "GFX_portrait_kommisar"
+				small="GFX_idea_kommisar"
+			}
+		}
+		corps_commander = {
+            traits = { infantry_officer harsh_leader }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 1
+            logistics_skill = 1
+        }
+	}
+	AGR_favior={
+		name = "favior"
+		advisor={
+			slot = political_advisor
+			idea_token = AGR_favior
+			traits  = {
+				prince_of_terror
+			}
+		}
+		portraits={
+			civilian={
+				small="GFX_idea_favior"
+			}
+			army={
+				large = "GFX_portrait_favior"
+				small="GFX_idea_favior"
+			}
+		}
+		corps_commander = {
+            traits = { camouflage_expert }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+        }
+	}
+	AGR_artaazar={
+		name = "artaazar"
+		portraits={
+			army={
+				large = "GFX_portrait_artaazar"
+				small="GFX_idea_artaazar"
+			}
+		}
+		corps_commander = {
+            traits = { politically_connected }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+        }
+	}
+}

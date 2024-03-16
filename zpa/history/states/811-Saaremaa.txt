@@ -1,0 +1,20 @@
+
+state={
+	id=811
+	name="STATE_811"
+
+	history={
+		owner = LUX
+		victory_points = {
+			185 1
+		}
+		add_core_of = LUX
+	}
+
+	provinces={
+		185 6201 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

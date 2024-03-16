@@ -1,0 +1,22 @@
+state = {
+	id = 915
+	name = "STATE_915" # Bohuslän
+	manpower = 1
+	state_category = rural
+
+	history = {
+		victory_points = {
+			6310 1
+		}
+		owner = LUX
+		add_core_of = LUX
+	}
+
+
+
+	provinces = {
+		171 6310 
+	}
+
+	local_supplies=0.000
+}

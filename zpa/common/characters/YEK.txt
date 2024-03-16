@@ -1,0 +1,13 @@
+characters = {
+	YEK_rain = {
+		name = "rain"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_rain
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+}

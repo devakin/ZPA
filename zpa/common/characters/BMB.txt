@@ -1,0 +1,35 @@
+characters = {
+	BMB_Politota = {
+		name = "Politota"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_politota
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+	BMB_gayorgy = {
+		name = "gayorgy"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_gayorgy
+			}
+			army = {
+				large = GFX_portrait_gayorgy
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { Dictator }
+		}
+		field_marshal = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+}

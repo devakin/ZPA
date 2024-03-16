@@ -1,0 +1,28 @@
+
+state={
+	id=528
+	name="STATE_528" # Kyushu
+	manpower = 1
+	state_category = large_city
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		victory_points = {
+			1025 10 
+		}
+		victory_points = {
+			4102 15 
+		}
+		victory_points = {
+			9950 30
+		}
+
+	}
+
+	provinces={
+		1020 1025 1158 1183 4027 4102 4164 4198 7110 7178 9950 10011 10020 10092 11925 11949 12006 12032 
+	}
+
+	local_supplies=10.0 
+}

@@ -1,0 +1,28 @@
+state={
+	id=930
+	name="STATE_930" #MIKKELI
+
+	manpower = 1
+	
+	state_category = rural
+	
+	history={
+		owner = LUX
+		add_core_of = LUX
+
+		victory_points = { #Mikkeli
+			165 1
+		}
+
+		victory_points = { #Savonlinna
+			37 1
+		}
+		
+	}
+
+	provinces={
+		37 165 3013 3131 9056 9073 9163 11043 11138 13104 13108 
+	}
+	
+	local_supplies = 0.0
+}

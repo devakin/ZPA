@@ -1,0 +1,13 @@
+characters = {
+	CUM_devakin = {
+		name = "devakin"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_devakin
+			}
+		}
+		country_leader = {
+			ideology = socialism
+		}
+	}
+}

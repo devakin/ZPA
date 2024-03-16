@@ -1,0 +1,13 @@
+characters = {
+	PAS_shevchen = {
+		name = "shevchen"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_shevchen
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+}

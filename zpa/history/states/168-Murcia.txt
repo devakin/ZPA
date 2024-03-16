@@ -1,0 +1,22 @@
+state={
+	id=168
+	name="STATE_168"
+
+	history={
+		owner = LUX
+		victory_points = {
+			10024 3
+		}
+		add_core_of = LUX
+
+	}
+
+	provinces={
+		832 1093 3835 4195 7111 9903 10024 10109 11807 11812 11884 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

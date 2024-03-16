@@ -1,0 +1,18 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_razval"
+		texturefile = "gfx/event/news_razval.dds"
+	}
+	spriteType = {
+		name = "GFX_mp_event"
+		texturefile = "gfx/event/mp_event.dds"
+	}
+	spriteType = {
+		name = "GFX_tournament_event"
+		texturefile = "gfx/event/tournament.dds"
+	}
+	spriteType = {
+		name = "GFX_recovery"
+		texturefile = "gfx/event/news_recovery.dds"
+	}
+}

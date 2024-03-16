@@ -1,0 +1,28 @@
+
+state = {
+	id = 531
+	name = "STATE_531" # Kansai
+	manpower = 1
+	state_category = metropolis
+
+	history = {
+
+		owner = LUX
+		add_core_of = LUX
+
+		victory_points = {
+			7072 40 # Osaka
+		}
+
+		victory_points = {
+			11960 20 # Kyoto
+		}
+
+	}
+
+	provinces = {
+		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031 
+	}
+
+	local_supplies = 9.0 
+}

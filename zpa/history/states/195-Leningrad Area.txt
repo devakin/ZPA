@@ -1,0 +1,38 @@
+
+state={
+	id=195
+	name="STATE_195"
+	manpower = 3750158
+	
+	state_category = metropolis
+
+	history={
+		owner = PTR
+		victory_points = {
+			3151 30.0
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 3
+			air_base = 3
+			3151 ={
+				naval_base = 4
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = PTR
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 7
+			}
+		}
+	}
+
+	provinces={
+		79 149 3151 6174 11068 
+	}
+
+	local_supplies=11.0 
+}

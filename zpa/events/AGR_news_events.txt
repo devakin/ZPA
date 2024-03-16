@@ -1,0 +1,73 @@
+add_namespace = agrnews
+
+news_event = {
+	id = agrnews.1
+	title = agrnews.1.t
+	desc = agrnews.1.desc
+	
+	picture = GFX_razval
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agrnews.1.a
+	}
+}
+news_event = {
+	id = agrnews.2
+	title = agrnews.2.t
+	desc = agrnews.2.desc
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agrnews.2.a
+	}
+}
+news_event = {
+	id = agrnews.3
+	title = agrnews.3.t
+	desc = agrnews.3.desc
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agrnews.3.a
+	}
+}
+
+news_event = {
+	id = agrnews.4
+	title = agrnews.4.t
+	desc = agrnews.4.desc
+	
+	picture = GFX_recovery
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agrnews.4.a
+	}
+}
+
+news_event = {
+	id = agrnews.5
+	title = agrnews.5.t
+	desc = agrnews.5.desc
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agrnews.5.a
+	}
+}

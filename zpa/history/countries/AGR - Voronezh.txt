@@ -1,0 +1,76 @@
+capital = 260
+
+oob = "AGR_1936"
+
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0
+# Starting tech
+set_technology = {
+    infantry_weapons = 1
+    infantry_weapons1 = 1
+    tech_recon = 1
+    tech_support = 1        
+    tech_engineers = 1
+	tech_trucks = 1
+    motorised_infantry = 1
+    gw_artillery = 1
+	electronic_mechanical_engineering = 1
+	mechanical_computing = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	basic_train = 1
+}
+
+set_convoys = 30
+
+set_popularities = {
+	neutrality = 50
+	fascism = 30
+	communism = 10
+	democratic = 10
+}
+
+recruit_character = AGR_Agress0r
+recruit_character = AGR_bukashka
+recruit_character = AGR_Zemik
+recruit_character = AGR_CatNeo
+recruit_character = AGR_MrStorm
+recruit_character = AGR_CryF1sh
+recruit_character = AGR_dragon
+recruit_character = AGR_Archmage
+recruit_character = AGR_agent
+recruit_character = AGR_zhykich
+recruit_character = AGR_servant
+recruit_character = AGR_kommisar
+recruit_character = AGR_favior
+recruit_character = AGR_artaazar
+
+set_politics = {
+    ruling_party = neutrality
+	last_election = "1933.5.10"
+	election_frequency = 240
+    elections_allowed = no
+}
+
+create_faction = Zvezdnoe_Pristanische_Agress0ra
+add_to_faction = AGR
+add_to_faction = BMB
+add_to_faction = CIF
+add_to_faction = CPC
+add_to_faction = CUM
+add_to_faction = FER
+add_to_faction = FUR
+add_to_faction = KHR
+add_to_faction = KIE
+add_to_faction = LWW
+add_to_faction = ODS
+add_to_faction = PAS
+add_to_faction = PND
+add_to_faction = ROS
+add_to_faction = SIB
+add_to_faction = ALM
+
+add_ideas = laziness
+add_ideas = dead_channel

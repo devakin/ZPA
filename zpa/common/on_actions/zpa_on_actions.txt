@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			AGR = {
+				country_event = {
+					id = agr.1
+					days = 31
+				}
+			}
+		}
+	}
+}

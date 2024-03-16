@@ -1,0 +1,13 @@
+characters = {
+	SIB_pidorit = {
+		name = "pidorit"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_pidorit
+			}
+		}
+		country_leader = {
+			ideology = moderatism
+		}
+	}
+}

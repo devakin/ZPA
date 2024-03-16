@@ -1,0 +1,22 @@
+
+state={
+	id=558
+	name="STATE_558"
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		victory_points = {
+			2050 1 
+		}
+
+	}
+
+	provinces={
+		2050 4952 12731 12817 12900 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

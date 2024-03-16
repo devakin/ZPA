@@ -1,0 +1,23 @@
+
+state={
+	id=13
+	name="STATE_13"
+
+	history={
+		owner = LUX
+		victory_points = {
+			3174 1 #Voru
+		}
+		add_core_of = LUX
+
+	}
+
+	provinces={
+		83 308 3074 3174 6381 11291 
+	}
+
+	local_supplies=6.0 
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

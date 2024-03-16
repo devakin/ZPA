@@ -1,0 +1,13 @@
+characters = {
+	PTR_maks = {
+		name = "maks"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_maks
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+}

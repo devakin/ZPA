@@ -1,0 +1,21 @@
+
+state={
+	id=538
+	name="STATE_538"
+	state_category = pastoral
+	manpower = 1
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+
+	}
+
+	provinces={
+		988 7219 7931 8048 10071 10883 10951 12741 12824 
+	}
+	
+	buildings_max_level_factor=1.000
+	
+	local_supplies=1.000
+}

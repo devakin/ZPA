@@ -1,0 +1,23 @@
+
+state={
+	id=529
+	name="STATE_529" # Chugoku
+	manpower = 1
+	state_category = large_city
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		
+		victory_points = {
+			1092 30
+		}
+
+	}
+
+	provinces={
+		1092 1167 1191 4197 7050 7145 7212 9968 10052 10055 11946 11985 
+	}
+
+	local_supplies=0.0 
+}

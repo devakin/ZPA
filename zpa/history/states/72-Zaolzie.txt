@@ -1,0 +1,18 @@
+state={
+	id=72
+	name="STATE_72"
+	manpower = 1
+	
+	state_category = rural
+	
+	history={
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces={
+		9551 9567 
+	}
+
+	local_supplies=1.0 
+}

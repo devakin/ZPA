@@ -1,0 +1,16 @@
+characters = {
+	ALM_deumos = {
+		name = "deumos"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_deumos
+			}
+			army = {
+				large = GFX_portrait_deumos
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+}

@@ -1,0 +1,22 @@
+
+state = {
+	id = 39
+	name = "STATE_39" # (South Tyrol) Alto Adige -> #TODO_Manu: Should change name to Südtirol when under Austrian/German control
+	manpower = 1
+	
+	state_category = town
+
+	history = {
+		victory_points = { #Bolzano
+			11598 1
+		}
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces = {
+		656 6675 9630 11598 11615
+	}
+
+	local_supplies = 0.0 
+}

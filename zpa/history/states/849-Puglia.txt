@@ -1,0 +1,27 @@
+
+state = {
+	id = 849
+	name = "STATE_849"
+	manpower = 1 
+	state_category = city
+	history = {
+		owner = LUX
+		victory_points = { #Bari
+			9784 3
+		}
+		victory_points = { #Brindisi
+			11998 3
+		}
+		victory_points = { #Taranto
+			11837 15 
+		}
+		victory_points = { #Foggia
+			883 3
+		}
+		add_core_of = LUX
+	}
+	provinces = {
+		883	6843 6939 6980 6979 9784 11837 11998
+	}
+	local_supplies = 0.000
+}

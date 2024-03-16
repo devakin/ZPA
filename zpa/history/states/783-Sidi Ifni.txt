@@ -1,0 +1,23 @@
+
+state={
+	id=783
+	name="STATE_783" # Sidi Ifni
+	manpower = 1
+	
+	state_category = pastoral
+
+	history={
+		victory_points = {
+			12857 1
+		}
+
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces={
+		12857
+	}
+
+	local_supplies=0.0 
+}

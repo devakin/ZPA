@@ -1,0 +1,13 @@
+characters = {
+	CIF_Zergling = {
+		name = "Zergling"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_zergling
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+		}
+	}
+}

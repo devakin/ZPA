@@ -1,0 +1,70 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_laziness"
+		texturefile = "gfx/interface/ideas/AGR_laziness.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_laziness1"
+		texturefile = "gfx/interface/ideas/AGR_laziness.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_laziness2"
+		texturefile = "gfx/interface/ideas/AGR_laziness.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_laziness3"
+		texturefile = "gfx/interface/ideas/AGR_laziness.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_laziness4"
+		texturefile = "gfx/interface/ideas/AGR_laziness.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dead_channel"
+		texturefile = "gfx/interface/ideas/AGR_dead_channel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dead_channel1"
+		texturefile = "gfx/interface/ideas/AGR_dead_channel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dead_channel2"
+		texturefile = "gfx/interface/ideas/AGR_dead_channel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tournament"
+		texturefile = "gfx/interface/ideas/AGR_tournament.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tournament_org"
+		texturefile = "gfx/interface/ideas/AGR_tournament_org.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_megastructer_speedrun"
+		texturefile = "gfx/interface/ideas/AGR_megastructer_speedrun.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mod_review_idea"
+		texturefile = "gfx/interface/ideas/AGR_mod_review_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_guid_idea"
+		texturefile = "gfx/interface/ideas/AGR_guid_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_synths"
+		texturefile = "gfx/interface/ideas/AGR_synths.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_stable_diffusion"
+		texturefile = "gfx/interface/ideas/AGR_stable_diffusion.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_honkai_idea"
+		texturefile = "gfx/interface/ideas/AGR_honkai.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_genshin_idea"
+		texturefile = "gfx/interface/ideas/AGR_genshin.dds"
+	}
+}

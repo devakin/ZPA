@@ -1,0 +1,13 @@
+characters = {
+	KIE_alah = {
+		name = "alah"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_alah
+			}
+		}
+		country_leader = {
+			ideology = moderatism
+		}
+	}
+}

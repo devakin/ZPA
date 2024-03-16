@@ -1,0 +1,118 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "AGR"
+		default = yes
+		
+		AGR = {
+			history = AGR_SCENARIO
+			ideology = neutrality
+			
+			focuses = { AGR_ZPA_reconstruction AGR_gachas AGR_bukashka }
+			ideas { laziness dead_channel }
+		}
+		CUM = {
+			history = CUM_SCENARIO
+			ideology = neutrality
+			
+			focuses = { }
+			ideas { }
+		}
+		ROS = {
+			history = ROS_SCENARIO
+			ideology = democratic
+			
+			focuses = { }
+			ideas { }
+		}
+		CPC = {
+			history = CPC_SCENARIO
+			ideology = democratic
+			
+			focuses = { }
+			ideas { }
+		}
+		LWW = {
+			history = POLITOTA_SCENARIO
+			ideology = neutrality
+			
+			focuses = { }
+			ideas { }
+		}
+		BMB = {
+			history = POLITOTA_SCENARIO
+			ideology = neutrality
+			
+			focuses = { }
+			ideas { }
+		}
+		PAS = {
+			history = PAS_SCENARIO
+			ideology = neutrality
+			
+			focuses = { }
+			ideas { }
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		FUR = {
+			minor = yes
+			history = PAS_SCENARIO
+			ideology = neutrality
+			
+			focuses = { }
+			ideas { }
+		}
+		SIB = {
+			history = SIB_SCENARIO
+			ideology = neutrality
+			minor = yes
+			
+			focuses = { }
+			ideas { }
+		}
+		KIE = {
+			history = KIE_SCENARIO
+			ideology = neutrality
+			minor = yes
+			
+			focuses = { }
+			ideas { }
+		}
+		PND = {
+			history = PND_SCENARIO
+			ideology = democratic
+			minor = yes
+			
+			focuses = { }
+			ideas { }
+		}
+		KHR = {
+			history = KHR_SCENARIO
+			ideology = neutrality
+			minor = yes
+			
+			focuses = { }
+			ideas { }
+		}
+		CIF = {
+			history = CIF_SCENARIO
+			ideology = democratic
+			minor = yes
+			
+			focuses = { }
+			ideas { }
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

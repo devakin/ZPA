@@ -1,0 +1,167 @@
+ideas = {
+	country = {
+		laziness = {
+			picture = GFX_idea_laziness
+			modifier = {
+				research_speed_factor = -0.25
+				political_power_cost = 0.5
+				command_power_gain = -0.25
+				army_attack_factor = -0.5
+			}
+		}
+		laziness1 = {
+			picture = GFX_idea_laziness1
+			modifier = {
+				research_speed_factor = -0.2
+				political_power_cost = 0.4
+				command_power_gain = -0.2
+				army_attack_factor = -0.4
+			}
+		}
+		laziness2 = {
+			picture = GFX_idea_laziness2
+			modifier = {
+				research_speed_factor = -0.15
+				political_power_cost = 0.3
+				command_power_gain = -0.15
+				army_attack_factor = -0.3
+			}
+		}
+		laziness3 = {
+			picture = GFX_idea_laziness3
+			modifier = {
+				research_speed_factor = -0.1
+				political_power_cost = 0.2
+				command_power_gain = -0.1
+				army_attack_factor = -0.2
+			}
+		}
+		laziness4 = {
+			picture = GFX_idea_laziness4
+			modifier = {
+				research_speed_factor = -0.05
+				political_power_cost = 0.1
+				command_power_gain = -0.05
+				army_attack_factor = -0.1
+			}
+		}
+		
+		dead_channel = {
+			picture = GFX_idea_dead_channel
+			modifier = {
+				conscription_factor = -0.7
+				consumer_goods_factor = 0.5
+				stability_factor = -0.25
+				war_support_factor = -0.50
+			}
+		}
+		dead_channel1 = {
+			picture = GFX_idea_dead_channel1
+			modifier = {
+				conscription_factor = -0.35
+				consumer_goods_factor = 0.25
+				stability_factor = -0.15
+				war_support_factor = -0.25
+			}
+		}
+		dead_channel2 = {
+			picture = GFX_idea_dead_channel2
+			modifier = {
+				conscription_factor = -0.15
+				consumer_goods_factor = 0.15
+				stability_factor = -0.05
+				war_support_factor = -0.15
+			}
+		}
+		
+		tournament = {
+			picture = GFX_idea_tournament
+			modifier = {
+				army_attack_factor = 0.1
+				army_org_factor = 0.1
+			}
+		}
+		tournament_org = {
+			picture = GFX_idea_tournament_org
+			modifier = {
+				army_attack_factor = 0.1
+				army_org_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		megastructer_speedrun = {
+			picture = GFX_idea_megastructer_speedrun
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				production_speed_industrial_complex_factor = 0.15
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+		mod_review_idea = {
+			picture = GFX_idea_mod_review_idea
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+				equipment_upgrade_xp_cost = -0.1
+			}
+		}
+		
+		guid_idea = {
+			picture = GFX_idea_guid_idea
+			modifier = {
+				experience_gain_army_factor = 0.25
+				experience_gain_navy_factor = 0.25
+				experience_gain_air_factor = 0.25
+			}
+		}
+		
+		synths = {
+			picture = GFX_idea_synths
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+		
+		stable_diffusion = {
+			picture = GFX_idea_stable_diffusion
+			modifier = {
+				research_speed_factor = 0.2
+			}
+		}
+		
+		honkai_idea = {
+			picture = GFX_idea_honkai_idea
+			modifier = {
+				war_support_factor = 0.1
+				attrition = -0.1
+			}
+		}
+		
+		genshin_idea = {
+			picture = GFX_idea_genshin_idea
+			modifier = {
+				stability_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		
+		destroy_ZPA_idea = {
+			picture = GFX_idea_destroy_ZPA_idea
+			modifier = {
+				generate_wargoal_tension = -1
+				justify_war_goal_time = -0.5
+			}
+		}
+		
+		LUX_idea = {
+			modifier = {
+				enemy_justify_war_goal_time = 100
+				political_power_gain = -3
+			}
+		}
+	}
+}	

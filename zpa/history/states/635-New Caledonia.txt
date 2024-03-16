@@ -1,0 +1,27 @@
+
+state={
+	id=635
+	name="STATE_635"
+	
+	state_category = small_island
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		victory_points = {
+			4268 1
+		}
+		victory_points = {
+			12120 1
+		}
+
+	}
+
+	provinces={
+		1237 1263 4231 4247 4268 7264 10160 12120 12132 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

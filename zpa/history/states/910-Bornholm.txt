@@ -1,0 +1,17 @@
+state = {
+	id = 910
+	name="STATE_910"
+	state_category = small_island
+	manpower = 1
+
+	history = {
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces={
+		6361 
+	}
+	
+	local_supplies = 0.000
+}

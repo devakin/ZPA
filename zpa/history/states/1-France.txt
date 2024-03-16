@@ -1,0 +1,20 @@
+
+state={
+	id=1
+	name="STATE_1" # Corsica
+	manpower = 1
+	
+	state_category = town
+
+	history={
+		owner = LUX
+		victory_points = { 3838 1 }
+		add_core_of = LUX
+	}
+
+	provinces={
+		3838 9851 11804 
+	}
+
+	local_supplies=0.0 
+}

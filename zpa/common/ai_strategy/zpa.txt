@@ -1,0 +1,14 @@
+AGR_zpa_support = {
+	allowed = { 
+		NOT = { original_tag = AGR }
+	}
+	enable = {
+		is_ally_with = AGR
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = alliance
+		id = AGR
+		value = 100000
+	}
+}

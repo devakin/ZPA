@@ -1,0 +1,24 @@
+state = {
+	id = 949
+	name = "STATE_949" # Aysen
+	manpower = 1
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = LUX
+		add_core_of = LUX
+
+		victory_points = {
+			2161 2
+		}
+		
+	}
+
+	provinces = {
+		2161 5118 5159 8198 10961 13295
+	}
+
+	local_supplies = 0.0 
+}

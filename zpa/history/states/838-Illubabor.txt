@@ -1,0 +1,26 @@
+state = {
+	id = 838 # Illubabor-Kaffa
+	name = "STATE_838"
+	manpower = 1
+	
+	state_category = pastoral
+
+	history = {
+		victory_points = { 
+			13244 2 
+		}
+		# Jiren (add VPs to this if creating the Jimma Sultanate)
+		victory_points = { 
+			7912 1  
+		}
+		
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces = {
+ 		7912 13244 13245
+ 	}
+
+	local_supplies = 0.0 
+}

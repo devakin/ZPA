@@ -1,0 +1,22 @@
+
+state={
+	id=131
+	name="STATE_131"
+	manpower = 1
+	
+	state_category = city
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		victory_points = {
+			351 8 
+		}
+	}
+
+	provinces={
+		351 11270 11299 
+	}
+
+	local_supplies=14.0 
+}

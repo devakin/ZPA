@@ -1,0 +1,24 @@
+state = {
+	id = 919
+	name = "STATE_919"
+	manpower = 1
+	state_category = rural
+
+	history = {
+		owner = LUX
+		add_core_of = LUX
+		victory_points = {
+			11114 1 
+		}
+		
+
+	}
+
+
+	provinces = {
+		69 147 3128 3141 6028 6195 9054 9138 9218 11114 
+	}
+	
+
+	local_supplies=0.000
+}

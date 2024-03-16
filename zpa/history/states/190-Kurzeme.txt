@@ -1,0 +1,27 @@
+
+state={
+	id=190
+	name="STATE_190"
+	
+	state_category = rural
+	
+	history={
+		victory_points = {
+			9262 3
+		}
+		victory_points = {
+			3296 1 #Ventspils
+		}
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces={
+		3194 3296 3319 6322 9262 11246 
+	}
+
+	local_supplies=5.0 
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,28 @@
+
+state = {
+	id = 141
+	name = "STATE_141" # Svealand
+	manpower = 1
+	state_category = city
+
+	history = {
+		owner = LUX
+
+		victory_points = {
+			6050 20 # Stockholm
+		}
+
+		victory_points = {
+			9149 3 # Uppsala
+		}
+
+		add_core_of = LUX
+
+	}
+
+	provinces = {
+		35 161 3106 3182 6050 6084 6127 6164 6188 6209 9109 9149 9185 9209 11044 11082 11163 11188 11278 13097 13098 
+	}
+
+	local_supplies = 0.0 
+}

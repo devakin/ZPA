@@ -1,0 +1,22 @@
+
+state={
+	id=781
+	name="STATE_781" # Niger
+	manpower = 1
+	
+	state_category = pastoral
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		victory_points = {
+			2056 1
+		}
+	}
+
+	provinces={
+		1975 2056 12707
+	}
+
+	local_supplies=1.0 
+}

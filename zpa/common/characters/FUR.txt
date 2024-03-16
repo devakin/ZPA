@@ -1,0 +1,25 @@
+characters = {
+	FUR_ivanzloi = {
+		name = "ivanzloi"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ivanzloi
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+		}
+	}
+	FUR_pointpng = {
+		name = "pointpng"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_pointpng
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+	
+}

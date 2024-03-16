@@ -1,0 +1,16 @@
+characters = {
+	HYP_pepe = {
+		name = "Pepe"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_pepe
+			}
+			army = {
+				large = GFX_portrait_pepe
+			}
+		}
+		country_leader = {
+			ideology = anarchism
+		}
+	}
+}

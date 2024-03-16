@@ -1,0 +1,102 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Infantry Division"  	# Standard formation for frontline divisions
+
+	division_names_group = AGR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+	}
+}
+division_template = {
+	name = "Cavalry Division"  		# 1st Cavalry Division only
+
+	division_names_group = AGR_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+###### OOB ######
+units = {
+	division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        location = 413
+        division_template = "Infantry Division"
+		start_experience_factor = 0.3
+    }
+	division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+        location = 6591
+        division_template = "Infantry Division"
+		start_experience_factor = 0.2
+    }
+	division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+        location = 9449
+        division_template = "Infantry Division"
+		start_experience_factor = 0.2
+    }
+	division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 4
+        }
+        location = 6398
+        division_template = "Infantry Division"
+		start_experience_factor = 0.2
+    }
+	division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 5
+        }
+        location = 9258
+        division_template = "Infantry Division"
+		start_experience_factor = 0.2
+    }
+	division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+        location = 9422
+        division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+    }
+	division= {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 6
+        }
+        location = 3578
+        division_template = "Infantry Division"
+		start_experience_factor = 0.2
+    }
+}
+#####################

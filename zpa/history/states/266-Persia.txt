@@ -1,0 +1,22 @@
+
+state={
+	id=266
+	name="STATE_266" # Tehran
+	manpower = 1
+	
+	state_category = town
+
+	history={
+		owner = LUX
+		victory_points = {
+			10837 10 
+		}
+		add_core_of = LUX
+	}
+
+	provinces={
+		4580 7602 10385 10768 10837 
+	}
+
+	local_supplies=0.0 
+}

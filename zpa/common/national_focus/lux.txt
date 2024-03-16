@@ -1,0 +1,28 @@
+﻿focus_tree = {
+	id = lux_focus
+	
+	country = {
+    factor = 0
+    modifier = {
+        add = 20
+        original_tag = LUX
+    }
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 1200 y = 500 }
+	
+	focus = {
+		id = LUX_lux
+		x = 0
+		y = 0
+
+		cost = 1000000
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+}

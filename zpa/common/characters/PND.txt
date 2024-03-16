@@ -1,0 +1,13 @@
+characters = {
+	PND_letresai = {
+		name = "letresai"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_letresai
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+		}
+	}
+}

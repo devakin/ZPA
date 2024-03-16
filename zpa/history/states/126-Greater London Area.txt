@@ -1,0 +1,21 @@
+state={
+	id=126
+	name="STATE_126"
+	manpower=1
+	
+	state_category = megalopolis
+
+	history={
+		owner = LUX
+		victory_points = {
+			6103 50 
+		}
+		add_core_of = LUX
+	}
+
+	provinces={
+		6103 9239 11333 11374 
+	}
+
+	local_supplies=0.0 
+}

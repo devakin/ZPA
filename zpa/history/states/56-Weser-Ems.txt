@@ -1,0 +1,27 @@
+state={
+	id=56
+	name="STATE_56"
+	manpower = 1
+	
+	state_category = city
+
+	history={
+		owner = LUX
+		victory_points = {
+			241 5 
+		}
+		victory_points = {
+			11360 1
+		}
+		victory_points = {
+			11388 5
+		}
+		add_core_of = LUX
+	}
+
+	provinces={
+		241 247 309 336 3234 9281 11233 11264 11360 11388 
+	}
+
+	local_supplies=14.0 
+}

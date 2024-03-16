@@ -1,0 +1,25 @@
+state={
+	id=719
+	name="STATE_719" # Natal
+	manpower = 1
+	
+	state_category = city
+
+
+	history={
+		owner = LUX
+		victory_points = {
+			1468 3 
+		}
+		victory_points = {
+			4696 1 
+		}
+		add_core_of = LUX
+	}
+
+	provinces={
+		1468 1494 1833 4556 4584 4696 7576 7900 8178 
+	}
+
+	local_supplies=0.0 
+}

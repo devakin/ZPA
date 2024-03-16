@@ -1,0 +1,876 @@
+AGR_zpa = {
+	AGR_rafomom_annex = {
+        visible = {
+            has_completed_focus = AGR_rafomom
+			NOT = {
+				OR = {
+					ROS = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = ROS }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 100
+		days_remove = 180
+		war_with_on_complete = ROS
+        complete_effect = {
+            ROS = { country_event = agr.10 }
+        }
+		targeted_modifier = {
+			tag = ROS
+			attack_bonus_against = 0.1
+			defense_bonus_against = -0.1
+		}
+		remove_effect = {
+			add_political_power = -100
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
+		cancel_trigger = {
+			OR = {
+				ROS = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = ROS }
+			}
+        }
+    }
+	AGR_rafomom_vassal = {
+        visible = {
+            has_completed_focus = AGR_rafomom
+			NOT = {
+				OR = {
+					ROS = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = ROS }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 75
+		days_remove = 30
+        remove_effect = {
+            ROS = { country_event = agr.11 }
+        }
+		cancel_trigger = {
+			OR = {
+				ROS = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = ROS }
+			}
+        }
+    }
+	
+	AGR_cifrodrochers_annex = {
+        visible = {
+            has_completed_focus = AGR_cifrodrochers
+			NOT = {
+				OR = {
+					CIF = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = CIF }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 100
+		days_remove = 180
+		war_with_on_complete = CIF
+        complete_effect = {
+            CIF = { country_event = agr.10 }
+        }
+		targeted_modifier = {
+			tag = CIF
+			attack_bonus_against = 0.1
+			defense_bonus_against = -0.1
+		}
+		remove_effect = {
+			add_political_power = -100
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
+		cancel_trigger = {
+			OR = {
+				CIF = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = CIF }
+			}
+        }
+    }
+	AGR_cifrodrochers_vassal = {
+        visible = {
+            has_completed_focus = AGR_cifrodrochers
+			NOT = {
+				OR = {
+					CIF = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = CIF }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 75
+		days_remove = 30
+        remove_effect = {
+            CIF = { country_event = agr.11 }
+        }
+		cancel_trigger = {
+			OR = {
+				CIF = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = CIF }
+			}
+        }
+    }
+	
+	AGR_inoagents_annex = {
+        visible = {
+            has_completed_focus = AGR_inoagents
+			NOT = {
+				OR = {
+					PND = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = PND }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 100
+		days_remove = 180
+		war_with_on_complete = PND
+        complete_effect = {
+            PND = { country_event = agr.10 }
+        }
+		targeted_modifier = {
+			tag = PND
+			attack_bonus_against = 0.1
+			defense_bonus_against = -0.1
+		}
+		remove_effect = {
+			add_political_power = -100
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
+		cancel_trigger = {
+			OR = {
+				PND = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = PND }
+			}
+        }
+    }
+	AGR_inoagents_vassal = {
+        visible = {
+            has_completed_focus = AGR_inoagents
+			NOT = {
+				OR = {
+					PND = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = PND }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 75
+		days_remove = 30
+        remove_effect = {
+            PND = { country_event = agr.11 }
+        }
+		cancel_trigger = {
+			OR = {
+				PND = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = PND }
+			}
+        }
+    }
+	
+	AGR_spamer_annex = {
+        visible = {
+            has_completed_focus = AGR_spamer
+			NOT = {
+				OR = {
+					CUM = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = CUM }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 100
+		days_remove = 180
+		war_with_on_complete = CUM
+        complete_effect = {
+            CUM = { country_event = agr.10 }
+        }
+		targeted_modifier = {
+			tag = CUM
+			attack_bonus_against = 0.1
+			defense_bonus_against = -0.1
+		}
+		remove_effect = {
+			add_political_power = -100
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
+		cancel_trigger = {
+			OR = {
+				CUM = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = CUM }
+			}
+        }
+    }
+	AGR_spamer_vassal = {
+        visible = {
+            has_completed_focus = AGR_spamer
+			NOT = {
+				OR = {
+					CUM = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = CUM }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 75
+		days_remove = 30
+        remove_effect = {
+            CUM = { country_event = agr.11 }
+        }
+		cancel_trigger = {
+			OR = {
+				CUM = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = CUM }
+			}
+        }
+    }
+	
+	AGR_nsfw_annex = {
+        visible = {
+            has_completed_focus = AGR_nsfw
+			NOT = {
+				OR = {
+					KHR = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = KHR }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 100
+		days_remove = 180
+		war_with_on_complete = KHR
+        complete_effect = {
+            KHR = { country_event = agr.10 }
+        }
+		targeted_modifier = {
+			tag = KHR
+			attack_bonus_against = 0.1
+			defense_bonus_against = -0.1
+		}
+		remove_effect = {
+			add_political_power = -100
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
+		cancel_trigger = {
+			OR = {
+				KHR = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = KHR }
+			}
+        }
+    }
+	AGR_nsfw_vassal = {
+        visible = {
+            has_completed_focus = AGR_nsfw
+			NOT = {
+				OR = {
+					KHR = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = KHR }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 75
+		days_remove = 30
+        remove_effect = {
+            KHR = { country_event = agr.11 }
+        }
+		cancel_trigger = {
+			OR = {
+				KHR = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = KHR }
+			}
+        }
+    }
+	AGR_nsfw_annex2 = {
+        visible = {
+            has_completed_focus = AGR_nsfw
+			NOT = {
+				OR = {
+					SIB = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = SIB }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 100
+		days_remove = 180
+		war_with_on_complete = SIB
+        complete_effect = {
+            SIB = { country_event = agr.10 }
+        }
+		targeted_modifier = {
+			tag = SIB
+			attack_bonus_against = 0.1
+			defense_bonus_against = -0.1
+		}
+		remove_effect = {
+			add_political_power = -100
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
+		cancel_trigger = {
+			OR = {
+				SIB = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = SIB }
+			}
+        }
+    }
+	AGR_nsfw_vassal2 = {
+        visible = {
+            has_completed_focus = AGR_nsfw
+			NOT = {
+				OR = {
+					SIB = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = SIB }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 75
+		days_remove = 30
+        remove_effect = {
+            SIB = { country_event = agr.11 }
+        }
+		cancel_trigger = {
+			OR = {
+				SIB = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = SIB }
+			}
+        }
+    }
+	
+	AGR_factorio_annex = {
+        visible = {
+            has_completed_focus = AGR_factorio
+			NOT = {
+				OR = {
+					CPC = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = CPC }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 100
+		days_remove = 180
+		war_with_on_complete = CPC
+        complete_effect = {
+            CPC = { country_event = agr.10 }
+        }
+		targeted_modifier = {
+			tag = CPC
+			attack_bonus_against = 0.1
+			defense_bonus_against = -0.1
+		}
+		remove_effect = {
+			add_political_power = -100
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
+		cancel_trigger = {
+			OR = {
+				CPC = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = CPC }
+			}
+        }
+    }
+	AGR_factorio_vassal = {
+        visible = {
+            has_completed_focus = AGR_factorio
+			NOT = {
+				OR = {
+					CPC = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = CPC }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 75
+		days_remove = 10
+        remove_effect = {
+            CPC = { country_event = agr.11 }
+        }
+		cancel_trigger = {
+			OR = {
+				CPC = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = CPC }
+			}
+        }
+    }
+	
+	AGR_politota_annex = {
+        visible = {
+            has_completed_focus = AGR_politota
+			OR = {
+				country_exists = BMB
+				country_exists = LWW
+				country_exists = LUG
+				country_exists = DNE
+				country_exists = CUR
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 50
+		days_remove = 365
+		war_with_on_complete = BMB
+		war_with_on_complete = LWW
+		war_with_on_complete = LUG
+		war_with_on_complete = DNE
+		war_with_on_complete = CUR
+        complete_effect = {
+			if = {
+				limit = { country_exists = BMB }
+				BMB = { country_event = agr.10 }
+			}
+			if = {
+				limit = { country_exists = LWW }
+				LWW = { country_event = agr.10 }
+			}
+			if = {
+				limit = { country_exists = LUG }
+				LUG = { country_event = agr.10 }
+			}
+			if = {
+				limit = { country_exists = DNE }
+				DNE = { country_event = agr.10 }
+			}
+			if = {
+				limit = { country_exists = CUR }
+				CUR = { country_event = agr.10 }
+			}
+        }
+		remove_effect = {
+			add_political_power = -200
+			add_stability = -0.2
+			add_war_support = -0.2
+		}
+		cancel_trigger = {
+			NOT = {
+				country_exists = BMB
+				country_exists = LWW
+				country_exists = LUG
+				country_exists = DNE
+				country_exists = CUR
+			}
+        }
+    }
+	
+	AGR_shevchen_annex = {
+        visible = {
+            has_completed_focus = AGR_shevchen
+			NOT = {
+				OR = {
+					PAS = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = PAS }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 100
+		days_remove = 180
+		war_with_on_complete = PAS
+        complete_effect = {
+            PAS = { country_event = agr.10 }
+        }
+		targeted_modifier = {
+			tag = PAS
+			attack_bonus_against = 0.1
+			defense_bonus_against = -0.1
+		}
+		remove_effect = {
+			add_political_power = -100
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
+		cancel_trigger = {
+			OR = {
+				PAS = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = PAS }
+			}
+        }
+    }
+	AGR_shevchen_vassal = {
+        visible = {
+            has_completed_focus = AGR_shevchen
+			NOT = {
+				OR = {
+					PAS = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = PAS }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 75
+		days_remove = 30
+        remove_effect = {
+            PAS = { country_event = agr.11 }
+        }
+		cancel_trigger = {
+			OR = {
+				PAS = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = PAS }
+			}
+        }
+    }
+	
+	AGR_furry_annex = {
+        visible = {
+            has_completed_focus = AGR_furry
+			NOT = {
+				OR = {
+					FUR = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = FUR }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 100
+		days_remove = 180
+		war_with_on_complete = FUR
+        complete_effect = {
+            FUR = { country_event = agr.10 }
+        }
+		targeted_modifier = {
+			tag = FUR
+			attack_bonus_against = 0.1
+			defense_bonus_against = -0.1
+		}
+		remove_effect = {
+			add_political_power = -100
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
+		cancel_trigger = {
+			OR = {
+				FUR = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = FUR }
+			}
+        }
+    }
+	AGR_furry_vassal = {
+        visible = {
+            has_completed_focus = AGR_furry
+			NOT = {
+				OR = {
+					FUR = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = FUR }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 75
+		days_remove = 30
+        remove_effect = {
+            FUR = { country_event = agr.11 }
+        }
+		cancel_trigger = {
+			OR = {
+				FUR = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = FUR }
+			}
+        }
+    }
+	
+	AGR_zpa_annex = {
+        visible = {
+            has_completed_focus = AGR_restore_ZPA
+			NOT = {
+				OR = {
+					OR = {
+						ODS = {
+							is_subject_of = AGR
+						}
+						NOT = { country_exists = ODS }
+					}
+					OR = {
+						ALM = {
+							is_subject_of = AGR
+						}
+						NOT = { country_exists = ALM }
+					}
+					OR = {
+						ALM = {
+							is_subject_of = AGR
+						}
+						NOT = { country_exists = ALM }
+					}
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 100
+		days_remove = 240
+		war_with_on_complete = ODS
+		war_with_on_complete = ALM
+		war_with_on_complete = FER
+        complete_effect = {
+			if = {
+				limit = { country_exists = ODS }
+				ODS = { country_event = agr.10 }
+			}
+			if = {
+				limit = { country_exists = ALM }
+				ALM = { country_event = agr.10 }
+			}
+			if = {
+				limit = { country_exists = FER }
+				FER = { country_event = agr.10 }
+			}
+        }
+		remove_effect = {
+			add_political_power = -150
+			add_stability = -0.15
+			add_war_support = -0.15
+		}
+		cancel_trigger = {
+			OR = {
+				OR = {
+					ODS = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = ODS }
+				}
+				OR = {
+					ALM = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = ALM }
+				}
+				OR = {
+					ALM = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = ALM }
+				}
+			}
+        }
+    }
+	AGR_zpa_vassal = {
+        visible = {
+            has_completed_focus = AGR_restore_ZPA
+			NOT = {
+				OR = {
+					OR = {
+						ODS = {
+							is_subject_of = AGR
+						}
+						NOT = { country_exists = ODS }
+					}
+					OR = {
+						ALM = {
+							is_subject_of = AGR
+						}
+						NOT = { country_exists = ALM }
+					}
+					OR = {
+						ALM = {
+							is_subject_of = AGR
+						}
+						NOT = { country_exists = ALM }
+					}
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 75
+		days_remove = 30
+        remove_effect = {
+            if = {
+				limit = { country_exists = ODS }
+				ODS = { country_event = agr.11 }
+			}
+			if = {
+				limit = { country_exists = ALM }
+				ALM = { country_event = agr.11 }
+			}
+			if = {
+				limit = { country_exists = FER }
+				FER = { country_event = agr.11 }
+			}
+        }
+		cancel_trigger = {
+			OR = {
+				OR = {
+					ODS = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = ODS }
+				}
+				OR = {
+					ALM = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = ALM }
+				}
+				OR = {
+					ALM = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = ALM }
+				}
+			}
+        }
+    }
+	
+	AGR_kiev_annex = {
+        visible = {
+            has_completed_focus = AGR_restore_ZPA
+			NOT = {
+				OR = {
+					KIE = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = KIE }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 75
+		days_remove = 60
+		war_with_on_complete = KIE
+        complete_effect = {
+            KIE = { country_event = agr.10 }
+        }
+		remove_effect = {
+			add_political_power = -100
+			add_stability = -0.1
+			add_war_support = -0.1
+		}
+		cancel_trigger = {
+			OR = {
+				KIE = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = KIE }
+			}
+        }
+    }
+	AGR_kiev_vassal = {
+        visible = {
+            has_completed_focus = AGR_restore_ZPA
+			NOT = {
+				OR = {
+					KIE = {
+						is_subject_of = AGR
+					}
+					NOT = { country_exists = KIE }
+				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 50
+		days_remove = 30
+        remove_effect = {
+            KIE = { country_event = agr.11 }
+        }
+		cancel_trigger = {
+			OR = {
+				KIE = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = KIE }
+			}
+        }
+    }
+}

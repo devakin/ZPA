@@ -1,0 +1,13 @@
+characters = {
+	ODS_overlord = {
+		name = "overlord"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_overlord
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+}

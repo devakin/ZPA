@@ -1,0 +1,15 @@
+state={
+	id=871
+	name="STATE_871"
+	provinces={
+		1526 2191 8200 10949 10969 10997 11011 12948 12962 12976 12990 
+	}
+	history = {
+		owner = LUX
+		add_core_of = LUX
+	}
+	state_category = pastoral
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

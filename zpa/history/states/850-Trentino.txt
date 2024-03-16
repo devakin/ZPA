@@ -1,0 +1,22 @@
+
+state = {
+	id = 850
+	name = "STATE_850" # Trentino
+	manpower = 1
+	
+	state_category = town
+
+	history = {
+		victory_points = { #Trento
+			9598 1
+		}
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces = {
+		6631 9598 
+	}
+
+	local_supplies = 0.0 
+}

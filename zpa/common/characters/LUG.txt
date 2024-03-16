@@ -1,0 +1,24 @@
+characters = {
+	LUG_cosmos = {
+		name = "cosmos"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_cosmos
+			}
+			army = {
+				large = GFX_portrait_cosmos
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { Dictator }
+		}
+		field_marshal = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+}

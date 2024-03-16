@@ -1,0 +1,18 @@
+state={
+	id=739
+	name="STATE_739"
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces={
+		1869
+	}
+	manpower=1
+	buildings_max_level_factor=1	
+	state_category="small_island"
+
+	local_supplies=0.0 
+}

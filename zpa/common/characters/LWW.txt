@@ -1,0 +1,35 @@
+characters = {
+	LWW_Politota = {
+		name = "Politota"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_politota
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+	LWW_marmeladiks = {
+		name = "marmeladiks"
+		portraits = {
+			civilian = {
+				large = GFX_leader_unknown
+			}
+			army = {
+				large = GFX_leader_unknown
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { Dictator }
+		}
+		field_marshal = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+}

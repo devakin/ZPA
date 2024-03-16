@@ -1,0 +1,30 @@
+
+state = {
+	id = 111
+	name = "STATE_111" # UUSIMA
+	manpower = 1
+	
+	state_category = large_town
+	
+	history = {
+		owner = LUX
+		add_core_of = LUX
+		victory_points = { #Helsinki
+			11105 15 
+		}
+
+		victory_points = { #Porvoo
+			6009 1 
+		}
+
+		victory_points = { #Hanko
+			11211 1 
+		}
+	}
+
+	provinces={
+		204 3161 6009 6108 6144 9129 11105 11211 
+	}
+
+	local_supplies=0.0 
+}

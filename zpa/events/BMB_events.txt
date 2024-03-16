@@ -1,0 +1,79 @@
+add_namespace = bmb
+
+country_event = {
+	id = bmb.1
+	title = bmb.1.t
+	desc = bmb.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bmb.1.a
+		LUG = { change_tag_from = BMB }
+	}
+	option = {
+		name = bmb.1.b
+		DNE = { change_tag_from = BMB }
+	}
+	option = {
+		name = bmb.1.c
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			set_cosmetic_tag = BMB_crim
+			remove_state_core = 228
+			remove_state_core = 227
+			remove_state_core = 226
+			remove_state_core = 200
+			release = LUG
+			release = DNE
+			load_oob = "BMB_1936"
+			LUG = { load_oob = "LUG_1936" }
+			DNE = { load_oob = "DNE_1936" }
+			news_event = {
+				id = agrnews.2
+				hours = 4
+			}
+			
+			create_faction = Bombas
+			BMB = { add_to_faction = LUG }
+			BMB = { add_to_faction = DNE }
+			LWW = { create_faction = Ukraine }
+			LWW = { add_to_faction = CUR }
+			
+			declare_war_on = {
+				target = LWW
+				type = annex_everything
+			}
+			
+			LUG = {
+				add_to_war = {
+					targeted_alliance = BMB
+					enemy = LWW
+					hostility_reason = asked_to_join
+				}
+			}
+			
+			DNE = {
+				add_to_war = {
+					targeted_alliance = BMB
+					enemy = LWW
+					hostility_reason = asked_to_join
+				}
+			}
+			
+			CUR = {
+				add_to_war = {
+					targeted_alliance = LWW
+					enemy = BMB
+					hostility_reason = asked_to_join
+				}
+			}
+		}
+	}
+}

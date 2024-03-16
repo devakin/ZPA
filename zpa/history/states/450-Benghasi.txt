@@ -1,0 +1,23 @@
+
+state={
+	id=450
+	name="STATE_450"
+	manpower = 1
+	
+	state_category = wasteland
+
+	history={
+		owner = LUX
+		
+		victory_points = {
+			11954 3 
+		}
+		add_core_of = LUX
+	}
+
+	provinces={
+		1127 4120 10123 11954 
+	}
+
+	local_supplies=0.0 
+}

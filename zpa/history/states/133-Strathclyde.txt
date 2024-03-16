@@ -1,0 +1,25 @@
+
+state={
+	id=133
+	name="STATE_133" # Lanark
+	manpower = 1
+	
+	state_category = city
+
+	history={
+		add_core_of = LUX
+		owner = LUX
+		victory_points = {
+			3273 15
+		}
+		victory_points = {
+			11218 1 #Dumfries
+		}
+	}
+
+	provinces={
+		3273 6320 6350 6385 6395 9237 9350 11218 
+	}
+
+	local_supplies=0.0 
+}

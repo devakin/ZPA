@@ -1,0 +1,29 @@
+
+state={
+	id=202
+	name="STATE_202"
+	manpower = 2495352
+	
+	
+	state_category = city
+
+	history={
+		owner = KIE
+		victory_points = {
+			525 25
+		}
+		buildings = {
+			infrastructure = 4 #was: 7
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 6
+		}
+		add_core_of = KIE
+	}
+
+	provinces={
+		525 
+	}
+
+	local_supplies=0.0 
+}

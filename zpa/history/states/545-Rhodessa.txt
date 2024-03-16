@@ -1,0 +1,23 @@
+state={
+	id=545
+	
+	state_category = pastoral
+	
+	name="STATE_545"
+
+	history={
+		owner = LUX
+		victory_points = {
+			10929 1 
+		}
+		add_core_of = LUX
+	}
+
+	provinces={
+		1874 2151 2216 4851 7842 10929
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+
+	local_supplies=3.0 
+}

@@ -1,0 +1,580 @@
+add_namespace = agr
+
+country_event = {
+	id = agr.1
+	title = agr.1.t
+	desc = agr.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.1.a
+		dismantle_faction = yes
+		hidden_effect = {
+			news_event = {
+				id = agrnews.1
+				hours = 4
+			}
+			LWW = {
+				country_event = {
+					id = lww.1
+					hours = 19
+				}
+			}
+			BMB = {
+				country_event = {
+					id = bmb.1
+					hours = 20
+				}
+			}
+			FUR = {
+				set_portraits = {
+					character = FUR_pointpng
+					army = { large = GFX_portrait_pointpng2 }
+					civilian = { large = GFX_portrait_pointpng2 }
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = agr.2
+	title = agr.2.t
+	desc = agr.2.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.2.a
+		add_stability = -0.1
+	}
+}
+
+country_event = {
+	id = agr.3
+	title = agr.3.t
+	desc = agr.3.desc
+	
+	picture = GFX_mp_event
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.3.a
+		CUM = { country_event = agr.4 }
+		CIF = { country_event = agr.4 }
+		ROS = { country_event = agr.4 }
+		custom_effect_tooltip = opinion_agr
+	}
+}
+
+country_event = {
+	id = agr.4
+	title = agr.4.t
+	desc = agr.4.desc
+	
+	picture = GFX_mp_event
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.4.a
+		ai_chance = {
+			base = 10
+			modifier = { 
+				factor = 5
+				has_opinion = {
+					target = FROM
+					value > 24
+				}
+			}
+			modifier = { 
+				factor = 10
+				has_opinion = {
+					target = FROM
+					value > 49
+				}
+			}
+			modifier = { 
+				factor = 90
+				has_opinion = {
+					target = FROM
+					value > 89
+				}
+			}
+		}
+		add_stability = 0.01
+		add_opinion_modifier = {
+			target = AGR
+			modifier = mp_opinion
+		}
+		reverse_add_opinion_modifier = {
+			target = AGR
+			modifier = mp_opinion
+		}
+		hidden_effect = { AGR = { country_event = agr.5 } }
+	}
+	option = {
+		name = agr.4.b
+		ai_chance = {
+			base = 10
+		}
+		hidden_effect = { AGR = { country_event = agr.6 } }
+	}
+}
+
+country_event = {
+	id = agr.5
+	title = agr.5.t
+	desc = agr.5.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.5.a
+		add_political_power = 15
+	}
+}
+
+country_event = {
+	id = agr.6
+	title = agr.6.t
+	desc = agr.6.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.6.a
+		add_political_power = -15
+	}
+}
+
+country_event = {
+	id = agr.7
+	title = agr.7.t
+	desc = agr.7.desc
+	
+	picture = GFX_tournament_event
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.7.a
+		hidden_effect = {
+			every_other_country = {
+				country_event = agr.8
+			}
+		}
+		add_ideas = tournament_org
+	}
+}
+
+country_event = {
+	id = agr.8
+	title = agr.8.t
+	desc = agr.8.desc
+	
+	picture = GFX_tournament_event
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.8.a
+		ai_chance = {
+			base = 10
+			modifier = { 
+				factor = 2
+				has_opinion = {
+					target = FROM
+					value > 24
+				}
+			}
+			modifier = { 
+				factor = 3
+				has_opinion = {
+					target = FROM
+					value > 49
+				}
+			}
+			modifier = { 
+				factor = 5
+				has_opinion = {
+					target = FROM
+					value > 89
+				}
+			}
+		}
+		add_timed_idea = { 
+			idea = tournament
+			days = 180
+		}
+		add_political_power = -25
+		hidden_effect = { AGR = { country_event = agr.9 } }
+	}
+	option = {
+		name = agr.8.b
+		ai_chance = {
+			base = 3
+			modifier = {
+				factor = 1000
+				tag = LUX
+			}
+		}
+	}
+}
+
+country_event = {
+	id = agr.9
+	title = agr.9.t
+	desc = agr.9.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.9.a
+		add_political_power = 10
+	}
+}
+
+country_event = {
+	id = agr.10
+	title = agr.10.t
+	desc = agr.10.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.10.a
+		FROM = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = yes
+			}
+		}
+		ai_chance = {
+			base = 1
+			modifier = { 
+				factor = 5
+				has_opinion = {
+					target = FROM
+					value > 24
+				}
+			}
+			modifier = { 
+				factor = 10
+				has_opinion = {
+					target = FROM
+					value > 49
+				}
+			}
+			modifier = { 
+				factor = 15
+				has_opinion = {
+					target = FROM
+					value > 89
+				}
+			}
+			modifier = { 
+				factor = 25
+				has_opinion = {
+					target = FROM
+					value > 99
+				}
+			}
+			modifier = {
+				factor = 1000
+				ROOT = {
+					is_subject_of = FROM
+				}
+			}
+		}
+	}
+	option = {
+		name = agr.10.b
+		FROM = { country_event = agr.13 }
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
+country_event = {
+	id = agr.11
+	title = agr.11.t
+	desc = agr.11.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.11.a
+		FROM = {
+			puppet = {
+				target = ROOT
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+		ai_chance = {
+			base = 3
+			modifier = { 
+				factor = 5
+				has_opinion = {
+					target = FROM
+					value > 24
+				}
+			}
+			modifier = { 
+				factor = 10
+				has_opinion = {
+					target = FROM
+					value > 49
+				}
+			}
+			modifier = { 
+				factor = 15
+				has_opinion = {
+					target = FROM
+					value > 89
+				}
+			}
+			modifier = { 
+				factor = 25
+				has_opinion = {
+					target = FROM
+					value > 99
+				}
+			}
+		}
+	}
+	option = {
+		name = agr.11.b
+		FROM = { country_event = agr.12 }
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
+country_event = {
+	id = agr.12
+	title = agr.12.t
+	desc = agr.12.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.12.a
+	}
+}
+
+country_event = {
+	id = agr.13
+	title = agr.13.t
+	desc = agr.13.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.13.a
+		declare_war_on = {
+			target = FROM
+			type = annex_everything
+		}
+	}
+}
+
+country_event = {
+	id = agr.14
+	title = agr.14.t
+	desc = agr.14.desc
+	
+	picture = GFX_mp_event
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.14.a
+		CUM = { country_event = agr.15 }
+		CIF = { country_event = agr.15 }
+		CPC = { country_event = agr.15 }
+		custom_effect_tooltip = opinion_agr
+	}
+}
+
+country_event = {
+	id = agr.15
+	title = agr.15.t
+	desc = agr.15.desc
+	
+	picture = GFX_mp_event
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.15.a
+		ai_chance = {
+			base = 10
+			modifier = { 
+				factor = 5
+				has_opinion = {
+					target = FROM
+					value > 24
+				}
+			}
+			modifier = { 
+				factor = 10
+				has_opinion = {
+					target = FROM
+					value > 49
+				}
+			}
+			modifier = { 
+				factor = 90
+				has_opinion = {
+					target = FROM
+					value > 89
+				}
+			}
+		}
+		add_stability = 0.01
+		add_opinion_modifier = {
+			target = AGR
+			modifier = mp_opinion
+		}
+		reverse_add_opinion_modifier = {
+			target = AGR
+			modifier = mp_opinion
+		}
+		hidden_effect = { AGR = { country_event = agr.5 } }
+	}
+	option = {
+		name = agr.15.b
+		ai_chance = {
+			base = 10
+		}
+		hidden_effect = { AGR = { country_event = agr.6 } }
+	}
+}
+
+country_event = {
+	id = agr.16
+	title = agr.16.t
+	desc = agr.16.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.16.a
+		create_faction = Zvezdnoe_Pristanische_Agress0ra
+		add_stability = 0.1
+		add_political_power = 100
+		hidden_effect = {
+			news_event = {
+				id = agrnews.4
+				hours = 4
+			}
+		}
+	}
+}
+
+country_event = {
+	id = agr.17
+	title = agr.17.t
+	desc = agr.17.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.17.a
+		AGR = {
+			set_politics = {
+				ruling_party = fascism
+			}
+		}
+		add_stability = -0.1
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.5
+		}
+		hidden_effect = {
+			news_event = {
+				id = agrnews.5
+				hours = 4
+			}
+		}
+	}
+}
+
+country_event = {
+	id = agr.18
+	title = agr.18.t
+	desc = agr.18.desc
+	
+	picture = GFX_mp_event
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.18.a
+		CUM = { country_event = agr.19 }
+		CIF = { country_event = agr.19 }
+		custom_effect_tooltip = opinion_agr
+	}
+}
+
+country_event = {
+	id = agr.19
+	title = agr.19.t
+	desc = agr.19.desc
+	
+	picture = GFX_mp_event
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = agr.19.a
+		ai_chance = {
+			base = 10
+			modifier = { 
+				factor = 5
+				has_opinion = {
+					target = FROM
+					value > 24
+				}
+			}
+			modifier = { 
+				factor = 10
+				has_opinion = {
+					target = FROM
+					value > 49
+				}
+			}
+			modifier = { 
+				factor = 90
+				has_opinion = {
+					target = FROM
+					value > 89
+				}
+			}
+		}
+		add_stability = 0.01
+		add_opinion_modifier = {
+			target = AGR
+			modifier = mp_opinion
+		}
+		reverse_add_opinion_modifier = {
+			target = AGR
+			modifier = mp_opinion
+		}
+		hidden_effect = { AGR = { country_event = agr.5 } }
+	}
+	option = {
+		name = agr.15.b
+		ai_chance = {
+			base = 10
+		}
+		hidden_effect = { AGR = { country_event = agr.6 } }
+	}
+}
+

@@ -1,0 +1,16 @@
+characters = {
+	CPC_Nick = {
+		name = "Nick"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_yaichko
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits  = {
+				finance_magnat
+			}
+		}
+	}
+}

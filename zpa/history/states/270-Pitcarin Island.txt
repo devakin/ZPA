@@ -1,0 +1,18 @@
+state=
+{
+	id=270
+	name="STATE_270"
+	manpower = 1
+	state_category = enclave
+	
+	history=
+	{
+		owner = LUX
+		add_core_of = LUX
+	}
+	provinces={
+		1280
+	}
+
+	local_supplies=0.0 
+}

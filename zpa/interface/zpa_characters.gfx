@@ -1,0 +1,194 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_portrait_agress0r"
+		texturefile = "gfx/leaders/AGR/Portrait_Agress0r.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_agress0r"
+		texturefile = "gfx/interface/ideas/AGR_agress0r.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_pepe"
+		texturefile = "gfx/leaders/HYP/Portrait_pepe.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_deumos"
+		texturefile = "gfx/leaders/ALM/Portrait_deumos.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_politota"
+		texturefile = "gfx/leaders/BMB/Portrait_Politota.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zergling"
+		texturefile = "gfx/leaders/CIF/Portrait_Zergling.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_toster"
+		texturefile = "gfx/leaders/CIF/Portrait_Toster.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_yaichko"
+		texturefile = "gfx/leaders/CPC/Portrait_Yaichko.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_devakin"
+		texturefile = "gfx/leaders/CUM/Portrait_devakin.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_texgan"
+		texturefile = "gfx/leaders/FER/Portrait_texgan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ivanzloi"
+		texturefile = "gfx/leaders/FUR/Portrait_ivan_zloi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_pointpng"
+		texturefile = "gfx/leaders/FUR/Portrait_pointpng.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_pointpng2"
+		texturefile = "gfx/leaders/FUR/Portrait_pointpng2.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_vlad"
+		texturefile = "gfx/leaders/KHR/Portrait_Vlad.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_alah"
+		texturefile = "gfx/leaders/KIE/Portrait_alah.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_overlord"
+		texturefile = "gfx/leaders/ODS/Portrait_Overlord.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_shevchen"
+		texturefile = "gfx/leaders/PAS/Portrait_Shevchen.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_letresai"
+		texturefile = "gfx/leaders/PND/Portrait_letrais.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_maks"
+		texturefile = "gfx/leaders/PTR/Portrait_maks.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_dementsiya"
+		texturefile = "gfx/leaders/ROA/Portrait_dementsiya.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_rafomom"
+		texturefile = "gfx/leaders/ROS/Portrait_Rafomom.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_pidorit"
+		texturefile = "gfx/leaders/SIB/Portrait_johansilver.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_den"
+		texturefile = "gfx/leaders/USI/Portrait_den.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_rain"
+		texturefile = "gfx/leaders/YEK/Portrait_dozhdik.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hiromant"
+		texturefile = "gfx/leaders/CUR/Portrait_hiromant.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_cosmos"
+		texturefile = "gfx/leaders/LUG/Portrait_cosmos.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_kiril"
+		texturefile = "gfx/leaders/DNE/Portrait_kiril.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_gayorgy"
+		texturefile = "gfx/leaders/BMB/Portrait_Gayorgy.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_bukashka"
+		texturefile = "gfx/leaders/AGR/Portrait_bukashka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bukashka"
+		texturefile = "gfx/interface/ideas/AGR_bukashka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Zemik"
+		texturefile = "gfx/interface/ideas/AGR_Zemik.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CatNeo"
+		texturefile = "gfx/interface/ideas/AGR_CatNeo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MrStorm"
+		texturefile = "gfx/interface/ideas/AGR_MrStorm.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CryF1sh"
+		texturefile = "gfx/interface/ideas/AGR_CryF1sh.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_dragon"
+		texturefile = "gfx/leaders/AGR/Portrait_dragon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dragon"
+		texturefile = "gfx/interface/ideas/AGR_dragon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Archmage"
+		texturefile = "gfx/interface/ideas/AGR_Archmage.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_agent"
+		texturefile = "gfx/leaders/AGR/Portrait_agent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_agent"
+		texturefile = "gfx/interface/ideas/AGR_agent.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_zhykich"
+		texturefile = "gfx/leaders/AGR/Portrait_zhykich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zhykich"
+		texturefile = "gfx/interface/ideas/AGR_zhykich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_servant"
+		texturefile = "gfx/interface/ideas/AGR_servant.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_kommisar"
+		texturefile = "gfx/leaders/AGR/Portrait_kommisar.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kommisar"
+		texturefile = "gfx/interface/ideas/AGR_kommisar.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_favior"
+		texturefile = "gfx/leaders/AGR/Portrait_favior.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_favior"
+		texturefile = "gfx/interface/ideas/AGR_favior.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_artaazar"
+		texturefile = "gfx/leaders/AGR/Portrait_artaazar.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_artaazar"
+		texturefile = "gfx/interface/ideas/AGR_artaazar.dds"
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+	USI_den = {
+		name = "den"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_den
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+		}
+	}
+}

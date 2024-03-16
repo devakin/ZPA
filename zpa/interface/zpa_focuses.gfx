@@ -1,0 +1,158 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_stellaris"
+		texturefile = "gfx/interface/goals/AGR_stellaris.dds"
+	}
+	spriteType = {
+		name = "GFX_stellariskal"
+		texturefile = "gfx/interface/goals/AGR_stellaris_kal.dds"
+	}
+	spriteType = {
+		name = "GFX_stellaris_stream"
+		texturefile = "gfx/interface/goals/AGR_stellaris_stream.dds"
+	}
+	spriteType = {
+		name = "GFX_new_video"
+		texturefile = "gfx/interface/goals/AGR_new_video.dds"
+	}
+	spriteType = {
+		name = "GFX_mp"
+		texturefile = "gfx/interface/goals/AGR_mp.dds"
+	}
+	spriteType = {
+		name = "GFX_walkthrought"
+		texturefile = "gfx/interface/goals/AGR_walkthrought.dds"
+	}
+	spriteType = {
+		name = "GFX_tournament"
+		texturefile = "gfx/interface/goals/AGR_tournament.dds"
+	}
+	spriteType = {
+		name = "GFX_megastructer"
+		texturefile = "gfx/interface/goals/AGR_megastructer.dds"
+	}
+	spriteType = {
+		name = "GFX_news"
+		texturefile = "gfx/interface/goals/AGR_news.dds"
+	}
+	spriteType = {
+		name = "GFX_mod_review"
+		texturefile = "gfx/interface/goals/AGR_mod_review.dds"
+	}
+	spriteType = {
+		name = "GFX_guid"
+		texturefile = "gfx/interface/goals/AGR_guid.dds"
+	}
+	spriteType = {
+		name = "GFX_patch"
+		texturefile = "gfx/interface/goals/AGR_patch.dds"
+	}
+	spriteType = {
+		name = "GFX_synthetics"
+		texturefile = "gfx/interface/goals/AGR_synthetics.dds"
+	}
+	spriteType = {
+		name = "GFX_ZPA_reconstruction"
+		texturefile = "gfx/interface/goals/AGR_ZPA_reconstruction.dds"
+	}
+	spriteType = {
+		name = "GFX_rafomom"
+		texturefile = "gfx/interface/goals/AGR_rafomom.dds"
+	}
+	spriteType = {
+		name = "GFX_cifrodrocher"
+		texturefile = "gfx/interface/goals/AGR_cifrodrocher.dds"
+	}
+	spriteType = {
+		name = "GFX_inoagents"
+		texturefile = "gfx/interface/goals/AGR_inoagents.dds"
+	}
+	spriteType = {
+		name = "GFX_spamer"
+		texturefile = "gfx/interface/goals/AGR_spamer.dds"
+	}
+	spriteType = {
+		name = "GFX_nsfw"
+		texturefile = "gfx/interface/goals/AGR_nsfw.dds"
+	}
+	spriteType = {
+		name = "GFX_factorio"
+		texturefile = "gfx/interface/goals/AGR_factorio.dds"
+	}
+	spriteType = {
+		name = "GFX_politota"
+		texturefile = "gfx/interface/goals/AGR_politota.dds"
+	}
+	spriteType = {
+		name = "GFX_shevchen"
+		texturefile = "gfx/interface/goals/AGR_shevchen.dds"
+	}
+	spriteType = {
+		name = "GFX_restore_ZPA"
+		texturefile = "gfx/interface/goals/AGR_restore_ZPA.dds"
+	}
+	spriteType = {
+		name = "GFX_gacha"
+		texturefile = "gfx/interface/goals/AGR_gacha.dds"
+	}
+	spriteType = {
+		name = "GFX_honkai"
+		texturefile = "gfx/interface/goals/AGR_honkai.dds"
+	}
+	spriteType = {
+		name = "GFX_genshin"
+		texturefile = "gfx/interface/goals/AGR_genshin.dds"
+	}
+	spriteType = {
+		name = "GFX_bukashka"
+		texturefile = "gfx/interface/goals/AGR_bukashka.dds"
+	}
+	spriteType = {
+		name = "GFX_destroy_ZPA"
+		texturefile = "gfx/interface/goals/AGR_destroy_ZPA.dds"
+	}
+	spriteType = {
+		name = "GFX_pohui"
+		texturefile = "gfx/interface/goals/AGR_pohui.dds"
+	}
+	spriteType = {
+		name = "GFX_dota"
+		texturefile = "gfx/interface/goals/AGR_dota.dds"
+	}
+	spriteType = {
+		name = "GFX_hots"
+		texturefile = "gfx/interface/goals/AGR_hots.dds"
+	}
+	spriteType = {
+		name = "GFX_lol"
+		texturefile = "gfx/interface/goals/AGR_lol.dds"
+	}
+	spriteType = {
+		name = "GFX_tutles"
+		texturefile = "gfx/interface/goals/AGR_tutles.dds"
+	}
+	spriteType = {
+		name = "GFX_wows"
+		texturefile = "gfx/interface/goals/AGR_wows.dds"
+	}
+	spriteType = {
+		name = "GFX_war_thunder"
+		texturefile = "gfx/interface/goals/AGR_war_thunder.dds"
+	}
+	spriteType = {
+		name = "GFX_wows_stream"
+		texturefile = "gfx/interface/goals/AGR_wows_stream.dds"
+	}
+	spriteType = {
+		name = "GFX_anime"
+		texturefile = "gfx/interface/goals/AGR_anime.dds"
+	}
+	spriteType = {
+		name = "GFX_neuro"
+		texturefile = "gfx/interface/goals/AGR_neuro.dds"
+	}
+	spriteType = {
+		name = "GFX_furry"
+		texturefile = "gfx/interface/goals/AGR_furry.dds"
+	}
+}

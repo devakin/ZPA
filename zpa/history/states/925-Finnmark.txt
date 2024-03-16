@@ -1,0 +1,25 @@
+state = {
+	id = 925
+	name = "STATE_925"
+
+	manpower = 1
+	
+	state_category = pastoral
+
+	history = {
+		
+		victory_points = {
+			9116 1
+		}
+		
+		owner = LUX
+		add_core_of = LUX
+		
+	}
+
+	provinces = {
+		22 64 76 128 2995 3016 3040 6015 6092 9042 9064 9089 9116 9128 9191 11034 11063 11077 11104 11169 
+	}
+
+	local_supplies = 0.000
+}

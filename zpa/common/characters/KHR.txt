@@ -1,0 +1,13 @@
+characters = {
+	KHR_Vlad = {
+		name = "Vlad"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_vlad
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+}

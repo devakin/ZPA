@@ -1,0 +1,4 @@
+BMB_crim = {
+	color = rgb { 200 200 200 }
+	color_ui = rgb { 230 230 230 }
+}

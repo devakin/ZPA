@@ -1,0 +1,13 @@
+characters = {
+	FER_texgan = {
+		name = "texgan"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_texgan
+			}
+		}
+		country_leader = {
+			ideology = centrism
+		}
+	}
+}

@@ -1,0 +1,20 @@
+state={
+	id=805
+	name="STATE_805"
+	provinces={
+		914 13234 13235
+	}
+	manpower = 1
+	
+	state_category = pastoral
+
+	history= {
+		owner = LUX
+		victory_points = {
+			914 1
+		}
+		add_core_of = LUX
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=663
+	name="STATE_663"
+	manpower = 1
+	
+	state_category = wasteland
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+	}
+
+	provinces={
+		1062 1186 4060 4063 4133 7063 7139 7206 9977 10049 12025 12079 13078 
+	}
+
+	local_supplies=0.0 
+}

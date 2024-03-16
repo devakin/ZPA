@@ -1,0 +1,13 @@
+characters = {
+	ROS_rafomom = {
+		name = "rafomom"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_rafomom
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+		}
+	}
+}

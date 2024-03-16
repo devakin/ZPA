@@ -1,0 +1,38 @@
+add_namespace = lww
+
+country_event = {
+	id = lww.1
+	title = lww.1.t
+	desc = lww.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lww.1.a
+		CUR = { change_tag_from = LWW }
+	}
+	option = {
+		name = lww.1.b
+	}
+	
+
+	immediate = {
+		hidden_effect = {
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			remove_state_core = 201
+			remove_state_core = 203
+			remove_state_core = 198
+			remove_state_core = 199
+			release = CUR
+			load_oob = "LWW_1936"
+			CUR = { load_oob = "CUR_1936" }
+			news_event = {
+				id = agrnews.3
+				hours = 4
+			}
+		}
+	}
+}
