@@ -673,56 +673,6 @@ AGR_zpa = {
             has_completed_focus = AGR_restore_ZPA
 			NOT = {
 				OR = {
-					OR = {
-						ODS = {
-							is_subject_of = AGR
-						}
-						NOT = { country_exists = ODS }
-					}
-					OR = {
-						ALM = {
-							is_subject_of = AGR
-						}
-						NOT = { country_exists = ALM }
-					}
-					OR = {
-						ALM = {
-							is_subject_of = AGR
-						}
-						NOT = { country_exists = ALM }
-					}
-				}
-			}
-        }
-        #icon = QAT_example      #For GFX_decision_QAT_example
-        fire_only_once = yes
-		cost = 100
-		days_remove = 240
-		war_with_on_complete = ODS
-		war_with_on_complete = ALM
-		war_with_on_complete = FER
-        complete_effect = {
-			if = {
-				limit = { country_exists = ODS }
-				ODS = { country_event = agr.10 }
-			}
-			if = {
-				limit = { country_exists = ALM }
-				ALM = { country_event = agr.10 }
-			}
-			if = {
-				limit = { country_exists = FER }
-				FER = { country_event = agr.10 }
-			}
-        }
-		remove_effect = {
-			add_political_power = -150
-			add_stability = -0.15
-			add_war_support = -0.15
-		}
-		cancel_trigger = {
-			OR = {
-				OR = {
 					ODS = {
 						is_subject_of = AGR
 					}
@@ -740,6 +690,67 @@ AGR_zpa = {
 					}
 					NOT = { country_exists = ALM }
 				}
+			}
+        }
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 100
+		days_remove = 240
+		war_with_on_complete = ODS
+		war_with_on_complete = ALM
+		war_with_on_complete = FER
+        complete_effect = {
+			if = {
+				limit = { 
+					AND = { 
+						country_exists = ODS 
+						NOT = { ODS = { is_subject_of = AGR } }
+					}
+				}
+				ODS = { country_event = agr.10 }
+			}
+			if = {
+				limit = { 
+					AND = { 
+						country_exists = ALM 
+						NOT = { ALM = { is_subject_of = AGR } }
+					} 
+				}
+				ALM = { country_event = agr.10 }
+			}
+			if = {
+				limit = { 
+					AND = { 
+						country_exists = FER
+						NOT = { FER = { is_subject_of = AGR } }
+					} 
+				}
+				FER = { country_event = agr.10 }
+			}
+        }
+		remove_effect = {
+			add_political_power = -150
+			add_stability = -0.15
+			add_war_support = -0.15
+		}
+		cancel_trigger = {
+			OR = {
+				ODS = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = ODS }
+			}
+			OR = {
+				ALM = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = ALM }
+			}
+			OR = {
+				ALM = {
+					is_subject_of = AGR
+				}
+				NOT = { country_exists = ALM }
 			}
         }
     }
@@ -870,6 +881,34 @@ AGR_zpa = {
 					is_subject_of = AGR
 				}
 				NOT = { country_exists = KIE }
+			}
+        }
+    }
+}
+
+BMB_zpa = {
+	BMB_nikolayev_annex = {
+        #icon = QAT_example      #For GFX_decision_QAT_example
+        fire_only_once = yes
+		cost = 10
+		ai_will_do = {
+			base = 100
+		}
+        complete_effect = {
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 196
+					num_provinces = 1
+					on_win = bmb.2
+					modifier = 1
+					dig_in_factor = 0
+					terrain_factor = 0
+				}	
+				defender = {
+					state = 197
+					num_provinces = 1
+				}
 			}
         }
     }

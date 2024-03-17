@@ -47,3 +47,6 @@
  AGR_kiev_annex_desc: "Пора замутить [KIE.GetLeader]"
  AGR_kiev_vassal: "Предложение для [KIE.GetLeader]"
  AGR_kiev_vassal_desc: "Мы можем предложить им мирно вернутся в ЗПА, если они согласятся они станут нашей марионеткой."
+ 
+ BMB_zpa: "Конфликт в Политоте"
+ BMB_nikolayev_annex: "Захватить Николаев"

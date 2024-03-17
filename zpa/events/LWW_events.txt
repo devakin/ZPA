@@ -13,11 +13,15 @@ country_event = {
 	}
 	option = {
 		name = lww.1.b
+		ai_chance = {
+			base = 100
+		}
 	}
 	
 
 	immediate = {
 		hidden_effect = {
+			add_threat = 5
 			set_politics = {
 				ruling_party = fascism
 				elections_allowed = no

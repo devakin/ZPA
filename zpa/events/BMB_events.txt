@@ -17,10 +17,14 @@ country_event = {
 	}
 	option = {
 		name = bmb.1.c
+		ai_chance = {
+			base = 100
+		}
 	}
 	
 	immediate = {
 		hidden_effect = {
+			add_threat = 5
 			set_politics = {
 				ruling_party = fascism
 				elections_allowed = no
@@ -40,9 +44,11 @@ country_event = {
 				hours = 4
 			}
 			
-			create_faction = Bombas
-			BMB = { add_to_faction = LUG }
-			BMB = { add_to_faction = DNE }
+			set_global_flag = politota_flag
+			
+			LUG = create_faction = Bombas
+			LUG = { add_to_faction = BMB }
+			LUG = { add_to_faction = DNE }
 			LWW = { create_faction = Ukraine }
 			LWW = { add_to_faction = CUR }
 			
@@ -74,6 +80,24 @@ country_event = {
 					hostility_reason = asked_to_join
 				}
 			}
+		}
+	}
+}
+
+country_event = {
+	id = bmb.2
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = bmb.2.a
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_state_owner = 197
 		}
 	}
 }

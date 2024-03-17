@@ -85,9 +85,9 @@
 		cost = 10
 
 		ai_will_do = {
-			factor = 5
+			factor = 3
 			modifier = {
-				add = 95
+				add = 97
 				is_historical_focus_on = no
 			}
 		}
@@ -247,7 +247,7 @@
 		x = -2
 		y = 1
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 100
@@ -429,7 +429,7 @@
 		x = -1
 		y = 1
 
-		cost = 4
+		cost = 5
 
 		ai_will_do = {
 			factor = 50
@@ -603,7 +603,7 @@
 		x = 3
 		y = 1
 
-		cost = 4
+		cost = 5
 
 		ai_will_do = {
 			factor = 50
@@ -682,7 +682,7 @@
 		x = 1
 		y = 1
 
-		cost = 4
+		cost = 5
 
 		ai_will_do = {
 			factor = 50
@@ -843,7 +843,7 @@
 		x = -3
 		y = 1
 
-		cost = 4
+		cost = 5
 
 		ai_will_do = {
 			factor = 50
@@ -930,7 +930,7 @@
 		x = 0
 		y = 3
 
-		cost = 4
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -946,6 +946,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = zpa_decisions
+			add_threat = 1
 		}
 	}
 	
@@ -974,6 +975,7 @@
 		completion_reward = {
 			custom_effect_tooltip = zpa_decisions_rafomom
 			set_country_flag = core_ROS
+			add_threat = 1
 		}
 	}
 	
@@ -1002,6 +1004,7 @@
 		completion_reward = {
 			custom_effect_tooltip = zpa_decisions_cifrodrochers
 			set_country_flag = core_CIF
+			add_threat = 1
 		}
 	}
 	
@@ -1030,6 +1033,7 @@
 		completion_reward = {
 			custom_effect_tooltip = zpa_decisions_inoagents
 			set_country_flag = core_PND
+			add_threat = 1
 		}
 	}
 	
@@ -1058,6 +1062,7 @@
 		completion_reward = {
 			custom_effect_tooltip = zpa_decisions_furry
 			set_country_flag = core_FUR
+			add_threat = 1
 		}
 	}
 	
@@ -1086,6 +1091,7 @@
 		completion_reward = {
 			custom_effect_tooltip = zpa_decisions_spamer
 			set_country_flag = core_CUM
+			add_threat = 1
 		}
 	}
 	
@@ -1115,6 +1121,7 @@
 			custom_effect_tooltip = zpa_decisions_nsfw
 			set_country_flag = core_KHR
 			set_country_flag = core_SIB
+			add_threat = 1
 		}
 	}
 	
@@ -1144,6 +1151,7 @@
 			country_event = agr.14
 			custom_effect_tooltip = zpa_decisions_factorio
 			set_country_flag = core_CPC
+			add_threat = 1
 		}
 	}
 	
@@ -1176,6 +1184,7 @@
 			set_country_flag = core_DNE
 			set_country_flag = core_LUG
 			set_country_flag = core_CUR
+			add_threat = 1
 		}
 	}
 	
@@ -1204,6 +1213,7 @@
 		completion_reward = {
 			custom_effect_tooltip = zpa_decisions_shevchen
 			set_country_flag = core_PAS
+			add_threat = 1
 		}
 	}
 	
@@ -1218,6 +1228,25 @@
 		y = 2
 
 		cost = 10
+		
+		available = {
+			OR = {
+				218 = { is_owned_and_controlled_by = AGR }
+				ROS = { is_subject_of = AGR }
+			}
+			OR = {
+				398 = { is_owned_and_controlled_by = AGR }
+				CUM = { is_subject_of = AGR }
+			}
+			OR = {
+				219 = { is_owned_and_controlled_by = AGR }
+				CIF = { is_subject_of = AGR }
+			}
+			OR = {
+				351 = { is_owned_and_controlled_by = AGR }
+				ROS = { is_subject_of = AGR }
+			}
+		}
 
 		ai_will_do = {
 			factor = 100
@@ -1693,6 +1722,8 @@
 				limit = { has_idea = laziness4 }
 				remove_ideas = { laziness4 }
 			}
+			
+			add_political_power = 100
 		}
 	}
 }

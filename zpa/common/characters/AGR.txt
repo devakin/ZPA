@@ -71,7 +71,7 @@ characters = {
 			ledger  = army
 			traits  = {
 				military_theorist 
-				knowledge_keeper
+				#knowledge_keeper
 			}
 		}
 		portraits={
@@ -105,7 +105,7 @@ characters = {
 			ledger  = army
 			traits  = {
 				army_infantry_1
-				knowledge_keeper
+				#knowledge_keeper
 			}
 		}
 		portraits={
@@ -192,7 +192,7 @@ characters = {
 			}
 			traits  = {
 				head_of_intelligence
-				knowledge_keeper
+				#knowledge_keeper
 			}
 		}
 		portraits={
